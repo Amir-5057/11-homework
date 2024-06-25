@@ -5,7 +5,12 @@ h2{
 
 
 .img-card{
-    padding: 56px 16px 32px;
+    border-radius: 12px;
+    padding: 25px 12px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 
 }
 
@@ -14,16 +19,20 @@ p{
     margin: 0;
 }
 
+.photo img{
+    width: calc(20.2vw + 248px);
+}
+
 .photo{
-    width: 100%;
     display: flex;
     gap: 16px;
-    align-items:center
+    align-items:center;
 }
 
 
 
 
+/* ------------------------ */
 
 
 
@@ -42,6 +51,7 @@ p{
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    
 
 }
 
